@@ -8,10 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Contracts\Services\" />
-    <Folder Include="Contracts\Repositories\" />
-    <Folder Include="Mappings\" />
-    <Folder Include="Models\DTOs\" />
-    <Folder Include="Models\Entities\" />
     <Folder Include="Services\" />
   </ItemGroup>
 

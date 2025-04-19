@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProdutoApp.Infra.Data.Mappings;
 
 namespace ProdutoApp.Infra.Data.Contexts
 {
@@ -11,7 +12,8 @@ namespace ProdutoApp.Infra.Data.Contexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            modelBuilder.ApplyConfiguration(new ProdutoMap());
+            modelBuilder.ApplyConfiguration(new FornecedorMap());
         }
     }
 }

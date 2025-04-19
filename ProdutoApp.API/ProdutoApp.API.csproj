@@ -15,4 +15,9 @@
     <Folder Include="Configurations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProdutoApp.Domain\ProdutoApp.Domain.csproj" />
+    <ProjectReference Include="..\ProdutoApp.Infra.Data\ProdutoApp.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
